@@ -1,0 +1,344 @@
+{
+    "BasicML001": [
+        "Machine learning is an application of Artificial Intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."
+    ],
+    "BasicML002": [
+        "Yes. Kaggle offers many free online courses to begin Machine Learning. It provides lot of datasets and competitions to participate and explore."
+    ],
+    "BasicML003": [
+        "Mean is the sum of all the elements divided by number of values. It can be calculated with the help of mean() method. for eg:\ndataset[feature].mean()"
+    ],
+    "BasicML004": [
+        "By using head() method of Pandas Dataframe"
+    ],
+    "BasicML005": [
+        "Sharing Google Colab notebooks is very easy. Versioning can be provided to the notebook by simply saving to Github. Colab has lot of pre-written code snippetss which can easily plug in to anyones code. It provides GPU which provides good performance. Best thing is, Google colab is Free."
+    ],
+    "BasicML006": [
+        "A dataset is a collection of data. In a tabular dataset every column represents a feature, and row corresponds to a given observation of the dataset."
+    ],
+    "BasicML007": [
+        "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer"
+    ],
+    "BasicML008": [
+        "A population is the entire group from which conclusions can be drawn. A sample is the specific group from which data can be collected. The size of the sample is less than or equal to the total size of the population."
+    ],
+    "BasicML009": [
+        "Exploratory analysis is done while searching for insights and used to find the answer to many questions. Explanatory analysis is performed to provide the accurate, insightful and visually appealing results to others."
+    ],
+    "BasicML010": [
+        "The drop() method of pandas DataFrame removes the specified column."
+    ],
+    "BasicML011": [
+        "Univariate plots visualize only one variable at a time, Bivariate plots can visualize and compare two variables and Multivariate plots can visualize more than two variables."
+    ],
+    "BasicML013": [
+        "read_csv() method of pandas library is used to read csv files.\r\neg: pd.read_csv(\"filename.csv\")"
+    ],
+    "BasicML014": [
+        "The most popular classification algorithms are Logistic Regression, Naive Bayes, K-Nearest Neighbors, Decision Tree, Support Vector Machines. "
+    ],
+    "BasicML015": [
+        "Python Pandas library provides a really fast and efficient way to manage and explore data. Pandas can be used to handle missing data, cleaning up data, indexing, merging and joining of datasets etc."
+    ],
+    "BasicML016": [
+        "Scatter plots are used to observe and show the relationship between two numeric variables, and for identifying other patterns in data. Scatter plots helps to identify the positive or negative, strong or weak, linear or non-linear relationships."
+    ],
+    "BasicML017": [
+        "An outlier is an observation that lies an abnormal distance from other values in the dataset. These values are generally removed from the mass of the data."
+    ],
+    "BasicML018": [
+        "Exploratory Data Analysis (EDA) is used to analyze, investigate and summarize main characteristics of the dataset by employing data visualizaton methods. It is used to discover the trends, patterns, or to check assumptions in the data."
+    ],
+    "BasicML019": [
+        "Supervised learning is a type of machine learning. It is defined by its use of labeled datasets to train algorithms to classify data or predict outcomes accurately. "
+    ],
+    "BasicML020": [
+        "Classifying the examples which are assigned exactly one of two classes is called Binary Classification.\nClassifying the examples which are assigned exactly one of more than two classes is called Multiclass Classification."
+    ],
+    "BasicML021": [
+        "Quantitative data refers to the information that can be quantified, counted, or measured and given a numerical value. for eg: The number of students in a class.\nQualitative data is descriptive in nature, expressed in terms of language rather than numerical values for eg: The native language of a person."
+    ],
+    "BasicML022": [
+        "Precision quantifies the number of positive class predictions that actually belong to the positive class. It is calculated as the number of true positives divided by the total number of true positives and false positives."
+    ],
+    "BasicML023": [
+        "The NumPy arrays have advantages like Multi-dimensional Slicing, Broadcasting Functionality, processing speed, vectorized operaions, memory footprint and it has many convenience methods."
+    ],
+    "BasicML024": [
+        "Classification is a supervised learning approach in which the computer program learns from the data given to it and make new observations or classifications."
+    ],
+    "BasicML025": [
+        "Cross Validation is a statistical method of evaluating and comparing learning algorithms by dividing data into two segments. One segment is used to learn or train a model and the other is used to validate the model."
+    ],
+    "BasicML026": [
+        "Accuracy is an evalution metric for classfication models. It can be defined as the number of classfications a model correctly predicts divided by the total number of predictions made."
+    ],
+    "BasicML027": [
+        "Unsupervised learning used machine learning algorithms to analyze and cluser unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention. Common unsupervised learning approaches are clustering, dimensionality reduction and it can applied in Computer Vision, Medical Imaging, Recommendation Engines etc."
+    ],
+    "BasicML028": [
+        "Numpy is a library for the Python programming language. It is a fundamental package for scientific computing. It adds support for large, multi-dimensinal arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays."
+    ],
+    "BasicML029": [
+        "Quantitative data is sub classified as discrete and continuous data. Discrete data contains finite values that have nothing in-between. It can take only distinct or separate values. Continuous data contains data that can be measured, that includes fractions and decimals.\nDiscrete data is Countable, where as Continuous data is measurable."
+    ],
+    "BasicML030": [
+        "Data visualization is useful for data cleaning, exploring data structure, detecting outliers and unusual groups, identifying trends and clusters, spotting local patterns, evaluating modeling output, and presenting results. It is essential for exploratory data analysis and data mining to check data quality and to help analysts become familiar with the structure and features of the data before them.\n"
+    ],
+    "BasicML031": [
+        "Heat Maps are graphical representations of data that utilize color-coded systems. The primary purpose of Heat Maps is to better visualize the volume of locations or events within a dataset and assist in directing viewers towards areas on data visulaizations that matter most."
+    ],
+    "BasicML032": [
+        "unique() method of pandas library returns unique values based on a hash table. Uniques are returned in order of appearance. This does not sort. pandas unique() is significantly faster than numpy.unique()."
+    ],
+    "BasicML033": [
+        "Absolute error refers to the magnitude of difference between the prediction of an observation and the true value of that observation. MAE takes the average of absolute errors for a group of predictions and observations as a measurement of the magnitude of errors for the entire group."
+    ],
+    "BasicML034": [
+        "A boxplot is a graph that gives a good indication of how the values in the data are spread out. Boxplots are a standardized way of displaying the distribution of data based on a five number summary (minimum - first quartile (Q1), median - third quartile (Q3), and maximum."
+    ],
+    "BasicML035": [
+        "The commonly used metrics for evaluating the performance of a regression model are Mean Squred Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error(MAE)."
+    ],
+    "BasicML037": [
+        "Univariate plotting can be done through Bar Chart, Line Chart, Area chart, Histogram."
+    ],
+    "BasicML038": [
+        "The steps that are implemented in the data analysis process are \r\n1. Determining the objective\r\n2. Data Collection\r\n3. Data Cleaning\r\n4. Interpreting the data\r\n5. Sharing the results"
+    ],
+    "BasicML039": [
+        "The mode is the value that appears most frequently in the dataset. A set of data may have one mode, more than one mode or no mode at all."
+    ],
+    "BasicML040": [
+        "Yes. Seaborn is also a Python library used for plotting graphs with the help of matplotlib."
+    ],
+    "BasicML041": [
+        "The Mean Squared Error measures the average of error squares. Simply it is the average squared difference between the predicted and the true value."
+    ],
+    "BasicML042": [
+        "The performance of classification models is evaluated by using Accuracy, Precision, Recall, F1 score, Log loss or Binary crossentropy, categorical crossentropy, AUC."
+    ],
+    "BasicML043": [
+        "One dimensional array contains elements only in one dimension. In other words, the shape of the numpy array should contain only one value in the tuple.\r\nTo create a one dimensional array in Numpy, you can use either of the array(), arange() or linspace() numpy functions."
+    ],
+    "BasicML044": [
+        "Scatter Plot, Line Plot, Strip plot, Swarm Plot, Bar Chart, Pie chart"
+    ],
+    "BasicML045": [
+        "A histogram is basically used to represent data provided in a form of some groups.It is accurate method for the graphical representation of numerical data distribution.It is a type of bar plot where X-axis represents the bin ranges while Y-axis gives information about frequency."
+    ],
+    "BasicML046": [
+        "isnull() method is used to check and manage NULL values in a dataframe."
+    ],
+    "BasicML047": [
+        "Nominal data is data that can be labelled or classified into mutually exclusive categories within a variable. These categories cannot be ordered in a meaningful way. For example, for the nominal variable of preferred mode of transportation, you may have the categories of car, bus, train, tram or bicycle."
+    ],
+    "BasicML049": [
+        "train_test_split() is a method of sklearn model selection. It is used to split the data into two subsets- training data and testing data."
+    ],
+    "PythonQ001": [
+        "List, Set and Dictionary are mutable data structures in python"
+    ],
+    "PythonQ002": [
+        "A function is a  reusable block of code that is intended to perform a single and specific task"
+    ],
+    "PythonQ003": [
+        "List and tuple differ in mutability. List is mutable where as tuple is immutable "
+    ],
+    "PythonQ004": [
+        "Local and global variable differ scope. The scope of a local variable is restricted to a block in which it is initialised where as the scope of a global variable is extended to the entire program."
+    ],
+    "PythonQ005": [
+        "By using sum() function"
+    ],
+    "PythonQ006": [
+        "A compiler is a system program, which translates a program from high level language to machine language."
+    ],
+    "PythonQ007": [
+        "Yes, indentation is required for python. It specifies the block to which a line of code belongs"
+    ],
+    "PythonQ008": [
+        "It reverses any linearly orderd sequence in python. For example it reverses list, tuple and string."
+    ],
+    "PythonQ009": [
+        "By using string's built-in method lower()"
+    ],
+    "PythonQ010": [
+        "It is the membership operator and checks the presence of an object in anoter iterable object. lambda a,b : a+b is an anonymous function to calculate addition of two numbers. "
+    ],
+    "PythonQ011": [
+        "Anonymous functions are created using lambda keyword in python."
+    ],
+    "PythonQ012": [
+        "Modules are the files with \".py\" extension. The code in the modules can be imported in other python programs."
+    ],
+    "PythonQ013": [
+        "Dictionary is an unordered collection of key-value pairs. Keys are immutable objects and values can be mutable or immutable. A dictionary contains unique keys in it. An empty dictionary is represented with {} or dict() in python."
+    ],
+    "PythonQ014": [
+        "Split is a built-in method of strings. It takes two parameters sep, maxsplit. It returns the list of words of the given string by splitting the given string taking sep as delimitter and maxsplit as the maximum number of splits that it can make. "
+    ],
+    "PythonQ015": [
+        "Type conversion in python is a method of changing an object from one data type to another"
+    ],
+    "PythonQ016": [
+        "Comments are inexecutable lines in a program which are often written to increase the readability of the program. single-line comments in python are preceeded with #. Where as multi-line comments are written using multi-line strings. We use triple quotes (\"\"\" or ''') for multi-line comments in python."
+    ],
+    "PythonQ017": [
+        "Continue statement whenever executed skips that particular iteration of a loop in python. Where as break statement when executed termintes the execution of the loop."
+    ],
+    "PythonQ018": [
+        "When compared with lists, numpy arrays use less memory, execution speed is faster, has multiple methods to facilitate mathematical operations."
+    ],
+    "PythonQ019": [
+        "We can import python module using import keyword. For example, we can import math module using \"import math\" statement. We can also import specific functions of a module using from key word. \"from math import log\" can be used to import log() method from math module."
+    ],
+    "PythonQ020": [
+        "Features of Python are : dynamic, free and open source, object-oriented, easy to learn, GUI support, portable, high-level, huge library support."
+    ],
+    "PythonQ021": [
+        "There will be more number of function calls, and more memory used in case of recursive functions. So, Iterative functions perform better than recursive functions."
+    ],
+    "PythonQ022": [
+        "for i in range(50,501):\n     print(i)\nor\nprint([i for i in range(50,501)])"
+    ],
+    "PythonQ023": [
+        "** operator is used as exponentiation operator in python. a**b is equivalent to math.pow(a,b) in python."
+    ],
+    "PythonQ024": [
+        "We have two division operators in python. They are \"/\" and \"//\". \"//\" is called as floor division and it gives the floor value of the obtained result. Whereas \"/\" operator gives the exact result. For example, 5//2 gives 2 and 5/2 gives 2.5"
+    ],
+    "PythonQ025": [
+        "Some of the commonly used built-in python modules are : numpy, pandas, math, re, itertools"
+    ],
+    "PythonQ026": [
+        "Pass statement in python is used to represent an empty block of code."
+    ],
+    "PythonQ027": [
+        "Both the compiler and  the interpreter are system programs used to convert the high level language program int machine understandable form. A compiler translates the entire program at once, where as interpreter translates line by line. When comes to execution of the compiled code runs faster than the interpreted code."
+    ],
+    "PythonQ028": [
+        "def check_numeric_string(str): return str.isnumeric()"
+    ],
+    "PythonQ029": [
+        "By using len() built-in function"
+    ],
+    "PythonQ030": [
+        "The min() function returns the item with the lowest value, or the item with the lowest value in an iterable. The max() function returns the item with the highest value, or the item with the highest value in an iterable."
+    ],
+    "PythonQ031": [
+        "By using lstrip(). lstrip() method, when no parameter is passed removes the leading spaces."
+    ],
+    "PythonQ032": [
+        "The purpose of both is same but the behavior is different. del is a keyword used to delete object from the list using an index. remove() is a method used to delete values from the list using value."
+    ],
+    "PythonQ033": [
+        "Python uses indentation to define a new block. A code block starts with indentation and ends with the first unindented line."
+    ],
+    "PythonQ034": [
+        "Some of the python libraries used for Machine Learning are numpy, pandas, matplotlib, scikit-learn, seaborn, tensorflow, pytorch, keras, scipy"
+    ],
+    "PythonQ035": [
+        "Actual parameters are the variables or values  passed to the function while calling."
+    ],
+    "PythonQ036": [
+        "By using return statement"
+    ],
+    "PythonQ037": [
+        "Positional arguments are arguments that need to be included in the proper position or order. The first positional argument always needs to be listed first when the function is called. The second positional argument needs to be listed second and the third positional argument listed third, etc. If the argument is not explicitly specified as a keyword argument, then by default position is given importance."
+    ],
+    "PythonQ038": [
+        "if_expression if condition else else_expression. For example, a if a>b else b gives maximum of a, b."
+    ],
+    "PythonQ039": [
+        "A function calling itself is called as recursion and that function is called as recursive function."
+    ],
+    "PythonQ040": [
+        "yes, It is possible to assign default values to formal parameters in the function definition. def function_name(a,b,c=3,d=4): In the function header, c and d are the default arguments."
+    ],
+    "PythonQ041": [
+        "def get_common_chars(str1, str2):\n    set2 = set(str2)\n    res = [i for i in str1 if i in set2]\n    return res"
+    ],
+    "PythonQ042": [
+        "read() method returns the entire content of a file in single string whereas readlines() function returns a list of all the lines in a file. "
+    ],
+    "PythonQ043": [
+        "By using set()"
+    ],
+    "PythonQ044": [
+        "append() takes one object and appends that object to the list. Whereas extend() takes a list and extends the current list by ading all the elements from the given list."
+    ],
+    "PythonQ045": [
+        "The count() method is used to return the number of elements with the specified values. \r\nSyntax : list.count(value)"
+    ],
+    "PythonQ046": [
+        "None is the default return value of the function in python."
+    ],
+    "PythonQ047": [
+        "We can use lambda functions with buit-in functions like max(), min(), sorted(), filter(), reduce(), and map()"
+    ],
+    "PythonQ048": [
+        "The duration for which the computer allocates memory for a variable is referred as its lifetime."
+    ],
+    "PythonQ049": [
+        "Formal parameters are the parameters specified in the function header while defining the function."
+    ],
+    "PythonQ050": [
+        "Keyword arguments are the values that are identifiable by the specific parameter names when passed into a function. A keyword argument is generally written as the parameter name, assignment operator and a value."
+    ],
+    "PythonQ051": [
+        "An exception is an event, which occurs during the execution of the program that disrupts the normal flow of the execution. In python, exception is an object that represents an error."
+    ],
+    "PythonQ052": [
+        "try, except, else and finally are the keywords used to handle exceptions in python."
+    ],
+    "PythonQ053": [
+        "List comprehension is an elegant way to define and create lists. List comprehension is generally more compact and faster than normal functions and loops for creating list. It is an easy technique to create lists in a single line from other iterables like String, tuple, dictinary, sets."
+    ],
+    "PythonQ054": [
+        "Default arguments will be taken if no arguments given to the method. A user can give values to those parameters which they want to, provided that the other parameters have default argument values. \r\n"
+    ],
+    "PythonQ055": [
+        "def factorial(n):\n    if(n<2):\n        return 1\n    fact = 1\n    for i in range(2,n+1):\n        fact *= i\n    return fact"
+    ],
+    "PythonQ056": [
+        "Code becomes more readable and understandable when recursion is used. "
+    ],
+    "PythonQ057": [
+        "Variable-length arguments take an unspecified amoutn of input. Both non-keyword (tuple) and keyword arguments (dictionary) are taken as vaargs with the help of *args, **kwargs."
+    ],
+    "PythonQ058": [
+        "def factorial(n):\n    if(n<2):\n        return 1\n    return n*fact(n-1)\n"
+    ],
+    "PythonQ059": [
+        "Class is a template for creating an object. An object can be manipulated while working through the code. A new object is intiated from scratch every time a class object is instantiated."
+    ],
+    "PythonQ060": [
+        "An operator is a symbol which tells the compiler or interpreter to perform specific mathematical, relational or logical operation and produce final result. some of the operators are +, -, *, / , %, <, >, = etc."
+    ],
+    "PythonQ061": [
+        "Various types of literals available in Python are String, Numeric (int, float, complex), Boolean, Collections, and special literals."
+    ],
+    "PythonQ062": [
+        "An expression is a combination of operators and operands (variables or constants) that is interpreted to produce some other value. Expressions are evaluated as per the precedence and associativity of operators."
+    ],
+    "PythonQ063": [
+        "Type conversion is the conversion of an object from one data type to another data type. Python supports both Implicit and Explicit Type Conversion."
+    ],
+    "PythonQ064": [
+        "The conversion of an object from one data type to the required data type is called Explicit Type Conversion. It is also called as Type Casting. Various built-in functions used to do Explicity Type Conversion are int(), float(), str(), bool(), bin(), oct(), hex() etc."
+    ],
+    "PythonQ065": [
+        "Various conditional statements available in Python are simple if statement, if else statement, nested if-else statement, if-elif-else statement."
+    ],
+    "PythonQ066": [
+        "The Two way decision statement works with a single condition. Based on the conditions Truth or Falsity one block of code is executed among the existing two block. Two way decision statement in Python is written with the help of if-else statement and the general structure of it is\nif codition:\n        True Block\nelse:\n        False Block"
+    ],
+    "PythonQ067": [
+        "Multi-way decision statements can be written in Python using if-else ladder. if, else, and elif are the three keywords used to write this conditional statement. This statement will have more than one condition. If any of the condition is true, the corresponding body will be executed otherwise else block will be executed."
+    ],
+    "PythonQ068": [
+        "and, as, assert, break, class, continue, def, del, elif, else, except, False, finally, for, from, global, if, import, in, is, lambda, None, nonlocal, not, or, pass, raise, return, True, try, while, with, yield."
+    ]
+}

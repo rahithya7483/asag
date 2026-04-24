@@ -1,0 +1,64 @@
+DATA LAYER
+│
+├── Question_data.csv
+├── refstdcombined.csv
+├── multiple_reference_answers.xlsx
+│
+▼
+PREPROCESSING LAYER
+│
+├── create_reference_bank.py
+├── clean_reference_bank.py
+├── multi_reference.py  (augmentation happens here)
+│
+▼
+MODEL + LOGIC LAYER
+│
+├── evaluate_answer.py   (SBERT similarity)
+├── explainability.py    (keyword comparison)
+├── final_grader.py      (decision + feedback)
+│
+▼
+INTERFACE LAYER
+│
+├── app_cli.py           (terminal)
+├── streamlit_app.py     (web UI)
+
+
+
+User selects question + inputs answer
+        │
+        ▼
+app_cli.py / streamlit_app.py
+        │
+        ▼
+final_grader.py
+        │
+        ├── evaluate_answer.py
+        │       └── SBERT similarity
+        │
+        ├── explainability.py
+        │       └── keyword comparison
+        │
+        ▼
+Result aggregation
+        │
+        ▼
+Display:
+- score
+- concepts
+- feedback
+
+
+Full Internal Flow (End-to-End)
+Student Answer
+   ↓
+Tokenization
+   ↓
+Transformer Encoding
+   ↓
+Vector (384-dim)
+   ↓
+Cosine Similarity with each reference vector
+   ↓
+Similarity scores array

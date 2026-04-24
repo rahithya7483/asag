@@ -24,19 +24,48 @@ def synonym_replacement(sentence, n=1):
     return " ".join(new_words)
 
 
-def random_swap(sentence):
+def word_reordering(sentence):
     words = sentence.split()
-    if len(words) < 2:
+
+    if len(words) < 4:
         return sentence
 
-    i, j = random.sample(range(len(words)), 2)
-    words[i], words[j] = words[j], words[i]
-    return " ".join(words)
+    # pick a sub-sequence to shuffle
+    start = random.randint(0, len(words) - 3)
+    end = start + random.randint(2, min(5, len(words) - start))
 
+    sub_part = words[start:end]
+    random.shuffle(sub_part)
+
+    new_words = words[:start] + sub_part + words[end:]
+
+    return " ".join(new_words)
+
+def minor_text_variation(sentence):
+    words = sentence.split()
+
+    # random lowercase/uppercase variation
+    if random.random() < 0.3:
+        words = [w.lower() for w in words]
+
+    # randomly add filler words
+    fillers = ["very", "basically", "actually", "simply"]
+    if random.random() < 0.3:
+        insert_pos = random.randint(0, len(words)-1)
+        words.insert(insert_pos, random.choice(fillers))
+
+    # randomly remove a word (small noise)
+    if len(words) > 4 and random.random() < 0.3:
+        del words[random.randint(0, len(words)-1)]
+
+    return " ".join(words)
 
 def augment_reference_answer(answer):
     augmented = set()
+
     augmented.add(answer)
     augmented.add(synonym_replacement(answer))
-    augmented.add(random_swap(answer))
+    augmented.add(word_reordering(answer))
+    augmented.add(minor_text_variation(answer))
+
     return list(augmented)
